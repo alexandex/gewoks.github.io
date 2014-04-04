@@ -1,0 +1,28 @@
+.dl-horizontal dt {
+    float: left;
+    width: 80px;
+    overflow: hidden;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #474747;
+  }
+  .dl-horizontal dd {
+    margin-left: 100px;
+  }
+
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+dt,
+dd {
+  line-height: 1.42857143;
+}
+dt {
+
+}
+dd {
+  margin-left: 0;
+  font-size: middle;
+}
